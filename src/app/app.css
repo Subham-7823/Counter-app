@@ -6,7 +6,8 @@
     margin: 10px;
     align-items: center;
     cursor: pointer;
-
+    text-align: center;
+    margin-top: 120px;
 }
 
 .btn:hover {
@@ -34,6 +35,26 @@
 
 }
 .header{
-text-align: center;
+    margin-top: 140px;
+    text-align: center;
 }
+
+#footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #222;
+  color: #fff;
+  padding: 15px 0;           /* more vertical space */
+  font-size: 16px;            /* slightly bigger text */
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;        /* spacing between letters */
+  word-spacing: 2px;          /* spacing between words */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  border-top: 2px solid #fff;
+  margin: 0;
+}
+
 
